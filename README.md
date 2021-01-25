@@ -11,6 +11,6 @@ The Real-time assisted writing system using pyTorch.
   
 #### [Recurrent Neural Networks | Sequence Models | Natural Language Processing](https://www.youtube.com/playlist?list=PL1w8k37X_6L_s4ncq-swTBvKDWnRSrinI) 
 
-#### [Blog Everything DSA](https://dscvjti.medium.com/how-to-start-coding-the-right-way-b30131c4dd4a)
+#### [A Guide to Coding Placements by Shreyansh Chedda](https://dscvjti.medium.com/how-to-start-coding-the-right-way-b30131c4dd4a)
 
 
