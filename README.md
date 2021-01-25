@@ -1,5 +1,5 @@
 # clarifAI
-The Real-time assisted writing system.
+The Real-time assisted writing system using pyTorch.
 
 ### DEADLINES
 
