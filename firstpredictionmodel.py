@@ -85,5 +85,6 @@ model.add(Dense(vocab_size, activation='softmax')) #Probability for each predict
 
 model.summary() #State of model
 
+# optimizers shape and mold your model into its most accurate possible form by futzing with the weights
 model.compile(loss="categorical_crossentropy", optimizer= 'adam', metrics=['accurancy'])
 
