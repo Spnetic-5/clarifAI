@@ -89,4 +89,4 @@ model.summary() #State of model
 model.compile(loss="categorical_crossentropy", optimizer= 'adam', metrics=['accurancy'])
 
 # Training
-model.fit(x, y, batch_size=256, epochs=100)
+model.fit(x, y, batch_size=256, epochs=100) # 500 epochs for better accuracy
