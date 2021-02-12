@@ -92,6 +92,7 @@ model.compile(loss="categorical_crossentropy", optimizer= 'adam', metrics=['accu
 model.fit(x, y, batch_size=256, epochs=100) # 500 epochs for better accuracy
 
 # Prediction
+seed_text=lines[12343]
 def generate_text_seq(model, tokenizer, text_seq_length, seed_text, n_words):
   text=[]
   for _ in range(n_words):
@@ -108,3 +109,5 @@ def generate_text_seq(model, tokenizer, text_seq_length, seed_text, n_words):
     seed_text = seed_text  + ' ' + predicted_word
     text.append(predicted_word)
   return ' '.join(text)
+#Prediction
+generate_text_seq(model, tokenizer, seq_length, seed_text, 100)
