@@ -88,3 +88,5 @@ model.summary() #State of model
 # optimizers shape and mold your model into its most accurate possible form by futzing with the weights
 model.compile(loss="categorical_crossentropy", optimizer= 'adam', metrics=['accurancy'])
 
+# Training
+model.fit(x, y, batch_size=256, epochs=100)
