@@ -96,12 +96,12 @@ def generate_text_seq(model, tokenizer, text_seq_length, seed_text, n_words):
   text=[]
   for _ in range(n_words):
     encoded = tokenizer.texts_to_sequences([seed_text])[0]
-    encoded = pad_sequences(encoded, max_len =text_seq_length, truncating='pre') # truncating to fix length
+    encoded = pad_sequences(encoded, maxlen =text_seq_length, truncating='pre') # truncating to fix length
 
     y_predict = model.predict_classes(encoded) # Prediction of Index
     predicted_word = ' '
     # Finding word of predicted index 
-    for word,index = in tokenizer.word.index.items():        
+    for word,index in tokenizer.word.index.items():        
       if index == y_predict:
         predicted_word = word
         break
