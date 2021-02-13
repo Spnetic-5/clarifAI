@@ -101,7 +101,7 @@ def generate_text_seq(model, tokenizer, text_seq_length, seed_text, n_words):
 
     y_predict = model.predict_classes(encoded) # Prediction of Index
     predicted_word = ' '
-    # Finding word of predicted index 
+    # Finding word at predicted index 
     for word,index in tokenizer.word.index.items():        
       if index == y_predict:
         predicted_word = word
@@ -109,5 +109,5 @@ def generate_text_seq(model, tokenizer, text_seq_length, seed_text, n_words):
     seed_text = seed_text  + ' ' + predicted_word
     text.append(predicted_word)
   return ' '.join(text)
-#Prediction
+# Prediction
 generate_text_seq(model, tokenizer, seq_length, seed_text, 100)
