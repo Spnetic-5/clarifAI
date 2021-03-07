@@ -1,5 +1,5 @@
 # clarifAI
-The Real-time assisted writing system using pyTorch.
+The Real-time assisted writing system provides the ability to autocomplete words and suggests predictions for the next word. This makes typing faster, more intelligent and reduces effort.
 
 ### DEADLINES
 
