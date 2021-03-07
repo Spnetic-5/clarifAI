@@ -1,6 +1,9 @@
 # clarifAI
 The Real-time assisted writing system provides the ability to autocomplete words and suggests predictions for the next word. This makes typing faster, more intelligent and reduces effort.
 
+# Methodology
+Assistant system provides the ability to autocomplete words and suggests predictions for the next word. This makes typing faster, more intelligent and reduces effort. The implementation involves using a large corpus.
+
 ### DEADLINES
 
   * January 31/1 - Sunday - [Complete Andrew NG](https://www.youtube.com/playlist?list=PLpFsSf5Dm-pd5d3rjNtIXUHT-v7bdaEIe)
