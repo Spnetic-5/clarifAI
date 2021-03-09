@@ -12,6 +12,13 @@ Original file is located at
 import tensorflow as tf
 import string
 import requests
+import numpy as np
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, LSTM, Embedding
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+
 
 response = requests.get('https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt')
 
@@ -53,12 +60,6 @@ for i in range(length, len(tokens)):
 
 """
 
-import numpy as np
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, LSTM, Embedding
-from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Tokenization
 tokenizer = Tokenizer()
