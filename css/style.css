@@ -61,7 +61,7 @@ body kbd {
     flex-wrap: wrap;
     box-sizing: border-box;
     border-radius: 4px;
-    background: #ccc;
+    background: rgb(255, 255, 255);
     border: 0.2em solid #888b8d;
     text-align: center;
     font-family: Quicksand;
