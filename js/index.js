@@ -34,9 +34,6 @@ function clearText() {
     theTextBox.innerHTML = '<br>';
 }
 
-
-
-
 //Function that detects keypresses and does the appropriate things
 function highlightAndType(e) {
     var keyPressed = e.keyCode;
