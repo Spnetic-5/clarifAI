@@ -12,10 +12,8 @@ import nltk
 nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from collections import defaultdict, Counter
-from google.colab import drive          
-drive.mount("/content/gdrive")
 
-data_path = '/content/gdrive/My Drive/merged-file.txt'
+data_path = 'Dataset/merged-file.txt'
 with open(data_path, 'r') as f:
     lines = f.read().split('\n')
 
