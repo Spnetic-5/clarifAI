@@ -65,7 +65,7 @@ app = Flask(__name__)
 new_corpus = PlaintextCorpusReader('./','.*')
 
 #tokens = nltk.word_tokenize(raw)
-tokens = brown.words() + new_corpus.words('chat.txt')
+tokens = brown.words() + new_corpus.words('Dataset/chat.txt')
 #tokens = reuters.words()
 
 #compute frequency distribution for all the bigrams and trigrams in the text
