@@ -1,12 +1,4 @@
-/* 
- * There are probably better ways of doing a lot of this,
- * but I'm just starting to wade into the deep end of
- * of vanilla JavaScript, so ¯\_(ツ)_/¯
- *
- * Inspired by day 1 of Wes Bos's 30 Day JavaScript Challenge
- * https://javascript30.com/
- */
-	
+//  -----------------------------------------------------------------------------  clarifAI  ----------------------------------------------------------------------------------------
 var x = 'x';
 let theTextBox = document.getElementById('enteredText'); 
 let allTheKeys = document.getElementById('keyboard'); 
@@ -102,7 +94,7 @@ function doWork(str, work) {
 
 	// ajax the JSON to the server
 	$.ajax({
-		url:"http://127.0.0.1:5000/output", 
+		url:"http://127.0.0.1:5000/predict", 
 		type:'GET',
 		data:{'string':str,
 			  'work': work},
