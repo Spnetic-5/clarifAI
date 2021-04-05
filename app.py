@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 26 16:54:56 2017
-
-@author: VARUN
-"""
-
+# -----------------------------------------------------------------------------  clarifAI  ----------------------------------------------------------------------------------------
 from flask import Flask, render_template, jsonify,request
 from pprint import pprint
 import simplejson as json
@@ -78,7 +72,7 @@ def output():
       return render_template("index.html",template_folder='templates')
 
 
-@app.route('/output', methods=['GET'])
+@app.route('/predict', methods=['GET'])
 def worker():
     #print(request, file=sys.stderr)
     string = request.args.get('string')
