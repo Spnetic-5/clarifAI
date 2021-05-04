@@ -26,7 +26,7 @@ LSTM model uses Deep learning with a network of artificial “cells” that mana
 LSTM have the ability to remove or add information to cell state regulated by structures called gates.<br>
 
 <p align="center" >
-<img height="275" width="400" src="https://user-images.githubusercontent.com/66636289/116988049-767c0d00-aced-11eb-98f0-6e68cb23d514.png">
+<img height="300" width="400" src="https://user-images.githubusercontent.com/66636289/116988049-767c0d00-aced-11eb-98f0-6e68cb23d514.png">
 </p>
 
 Advantage: Standard RNNs and other language models become less accurate when the gap between the context and the word to be predicted increases. Here’s when LSTM comes in use to tackle the long-term dependency problem because it has memory cells to remember the previous context.
@@ -44,14 +44,19 @@ We could also implement an app where one can write an application letter and the
 
  ![image](https://user-images.githubusercontent.com/66636289/116987532-cdcdad80-acec-11eb-82d8-525fa229a40a.png)
 
-
- 
-
- ### DATASETS Used:
+### DATASETS Used:
  * https://www.kaggle.com/thanatoz/hinglish-blogs?select=data_119.txt
 
  * https://www.gutenberg.org/cache/epub/5200/pg5200.txt
-  
-#### [Recurrent Neural Networks | Sequence Models | Natural Language Processing](https://www.youtube.com/playlist?list=PL1w8k37X_6L_s4ncq-swTBvKDWnRSrinI) 
+
+### Contributors:
+ * [Saurabh Suresh Powar](https://github.com/Spnetic-5)
+ * [Rutuja Kolte](https://github.com/Rutuja-Kolte)
+ * [Khushi Barjatia](https://github.com/khushibarjatia)
+ * [Sakshi Chikse](https://github.com/Sakshi-0311)
+
+#### Acknowledgements:
+   * [Deep Learning Specialization Andrew NG](https://www.coursera.org/specializations/deep-learning?network=g&utm_source=gg&creativeid=506864295332&matchtype=b&adgroupid=120914521673&gclid=Cj0KCQjw4cOEBhDMARIsAA3XDRjA38BsZVS0VgzvKEwDHtfavwsFIQcoqs5dPq9-wKM518-Va9-L9XMaAnZwEALw_wcB&keyword=&utm_content=94-BrandedSearch-IN&hide_mobile_promo=&utm_campaign=94-BrandedSearch-IN&campaignid=1776545273&devicemodel=&adpostion=&utm_medium=sem&device=c)
+   * [Recurrent Neural Networks | Sequence Models | Natural Language Processing](https://www.youtube.com/playlist?list=PL1w8k37X_6L_s4ncq-swTBvKDWnRSrinI) 
 
 
