@@ -15,15 +15,19 @@ Models Considered for word prediction:
 Probabilistic models are used for computing the probability of an entire sentence or for giving a probabilistic prediction of what the next word will be in a sequence. 
 This model involves looking at the conditional probability of a word given the previous words.If we consider each word occurring in its correct location as an independent event. We might represent this probability as:
 
-![image](https://user-images.githubusercontent.com/64076774/112020610-7f0def00-8b56-11eb-9dc2-9611fdb84b4a.png)
-
+<p align="center" >
+<img src="https://user-images.githubusercontent.com/64076774/112020610-7f0def00-8b56-11eb-9dc2-9611fdb84b4a.png">
+</p>
 
 **LSTM Model:**
 Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
 LSTM (Long Short-Term Memory) are very good for analyzing sequences of values and predicting the next one. 
 LSTM model uses Deep learning with a network of artificial “cells” that manage memory, making them better suited for text prediction than traditional neural networks and other models.
 LSTM have the ability to remove or add information to cell state regulated by structures called gates.<br>
-<img align="center" height="275" width="400" src="https://user-images.githubusercontent.com/66636289/116988049-767c0d00-aced-11eb-98f0-6e68cb23d514.png">
+
+<p align="center" >
+<img height="275" width="400" src="https://user-images.githubusercontent.com/66636289/116988049-767c0d00-aced-11eb-98f0-6e68cb23d514.png">
+</p>
 
 Advantage: Standard RNNs and other language models become less accurate when the gap between the context and the word to be predicted increases. Here’s when LSTM comes in use to tackle the long-term dependency problem because it has memory cells to remember the previous context.
 **Future Scope:**
