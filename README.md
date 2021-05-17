@@ -32,16 +32,21 @@ LSTM have the ability to remove or add information to cell state regulated by st
 
 Advantage: Standard RNNs and other language models become less accurate when the gap between the context and the word to be predicted increases. Here’s when LSTM comes in use to tackle the long-term dependency problem because it has memory cells to remember the previous context.
 
-## 🔮 Future Scope:
-* We could add an autocorrect feature like Grammarly.
-* Try to improve our LSTM model to maximize the results for the word /phrase prediction.
-* We could also implement an app where one can write an application letter and the app will predict the next appropriate words according to the subject of the letter.  
-
 ## 🤖 Technology Stack:
-* Front-end - HTML, CSS, Javascript
-* Back-end -  [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Flask is a lightweight WSGI web application framework.)
+* Front-end - HTML, CSS, JS
+* Back-end -  [Flask](https://flask.palletsprojects.com/en/1.1.x/), Python
 * Models - [N-grams](https://en.wikipedia.org/wiki/N-gram), [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)
-* ML/DL - Keras, Tensorflow
+* Frameworks - Keras, Tensorflow
+* Libraries - NLTK
+
+## 🛠️ Project Setup
+#### For Web
+```
+$ git clone https://github.com/Spnetic-5/clarifAI.git
+```
+```
+$ python app.py 
+```
 
 
 ## 🖼 Working Example:
@@ -59,7 +64,12 @@ Advantage: Standard RNNs and other language models become less accurate when the
  * https://www.gutenberg.org/cache/epub/5200/pg5200.txt
 
 ### ⚡ Applications:
- * This project predicts the next possible word based on the input provided by the user. This project supports English as well as      Hinglish language.
+ * This project predicts the next possible word based on the input provided by the user. This project supports English as well as Hindi language.
+
+## 🔮 Future Scope:
+* We could add an autocorrect feature like Grammarly.
+* Try to improve our LSTM model to maximize the results for the word /phrase prediction.
+* We could also implement an app where one can write an application letter and the app will predict the next appropriate words according to the subject of the letter.  
 
 ### 👩‍💻 Contributors:
  * [Saurabh Suresh Powar](https://github.com/Spnetic-5)
