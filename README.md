@@ -1,7 +1,7 @@
 # clarifAI
 The Real-time assisted writing system provides the ability to autocomplete words and suggests predictions for the next word. This makes typing faster, more intelligent and reduces effort. It is a Natural Language Processing concerned with predicting the text given the precceding text. It can be used as an web application.
 
-# Methodology
+# 📝 Methodology
 Assistant system provides the ability to autocomplete words and suggests predictions for the next word. This makes typing faster, more intelligent and reduces effort. The implementation involves using a large corpus.
 The initial task will be to design a keyboard interface as a web app. The keyboard layout consists of all keys which are present on a physical keyboard. The keyboard's interface will show the top three predictions for a given word sequence and suggest word-completion.
 This interface will be achieved by designing in HTML, CSS and JavaScript. 
@@ -11,7 +11,8 @@ The keyboard unwraps the JSON and puts the predictions over the keys.
 ![image](https://user-images.githubusercontent.com/64076774/112019984-fd1dc600-8b55-11eb-93ee-e363edc155da.png)
 
 Models Considered for word prediction:
-**N-grams Model**
+
+**N-grams Model:**
 Probabilistic models are used for computing the probability of an entire sentence or for giving a probabilistic prediction of what the next word will be in a sequence. 
 This model involves looking at the conditional probability of a word given the previous words.If we consider each word occurring in its correct location as an independent event. We might represent this probability as:
 
@@ -30,12 +31,20 @@ LSTM have the ability to remove or add information to cell state regulated by st
 </p>
 
 Advantage: Standard RNNs and other language models become less accurate when the gap between the context and the word to be predicted increases. Here’s when LSTM comes in use to tackle the long-term dependency problem because it has memory cells to remember the previous context.
-**Future Scope:**
-We could add an autocorrect feature like Grammarly.
-Try to improve our LSTM model to maximize the results for the word /phrase prediction.
-We could also implement an app where one can write an application letter and the app will predict the next appropriate words according to the subject of the letter.  
 
-## Working Example:
+## 🔮 Future Scope:
+* We could add an autocorrect feature like Grammarly.
+* Try to improve our LSTM model to maximize the results for the word /phrase prediction.
+* We could also implement an app where one can write an application letter and the app will predict the next appropriate words according to the subject of the letter.  
+
+## 🤖 Technology Stack:
+* Front-end - HTML, CSS, Javascript
+* Back-end -  [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Flask is a lightweight WSGI web application framework.)
+* Models - [N-grams](https://en.wikipedia.org/wiki/N-gram), [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)
+* ML/DL - Keras, Tensorflow
+
+
+## 🖼 Working Example:
  * Hindi:
  
  ![image](https://user-images.githubusercontent.com/66636289/116987344-90692000-acec-11eb-94d7-962d0a633ed0.png)
@@ -49,13 +58,19 @@ We could also implement an app where one can write an application letter and the
 
  * https://www.gutenberg.org/cache/epub/5200/pg5200.txt
 
-### Contributors:
+### 👩‍💻 Contributors:
  * [Saurabh Suresh Powar](https://github.com/Spnetic-5)
+ * [Sakshi Chikshe](https://github.com/Sakshi-0311)
  * [Rutuja Kolte](https://github.com/Rutuja-Kolte)
  * [Khushi Barjatia](https://github.com/khushibarjatia)
- * [Sakshi Chikse](https://github.com/Sakshi-0311)
 
-#### Acknowledgements:
+ ### 👨‍🏫 Mentor:
+ * [Shreyansh Chheda](https://github.com/shrey-c)
+ 
+### ⚡ Applications:
+ * This project predicts the next possible word based on the input provided by the user. This project supports English as well as      Hinglish language.
+
+#### 🔗 Acknowledgements:
    * [Deep Learning Specialization Andrew NG](https://www.coursera.org/specializations/deep-learning?network=g&utm_source=gg&creativeid=506864295332&matchtype=b&adgroupid=120914521673&gclid=Cj0KCQjw4cOEBhDMARIsAA3XDRjA38BsZVS0VgzvKEwDHtfavwsFIQcoqs5dPq9-wKM518-Va9-L9XMaAnZwEALw_wcB&keyword=&utm_content=94-BrandedSearch-IN&hide_mobile_promo=&utm_campaign=94-BrandedSearch-IN&campaignid=1776545273&devicemodel=&adpostion=&utm_medium=sem&device=c)
    * [Recurrent Neural Networks | Sequence Models | Natural Language Processing](https://www.youtube.com/playlist?list=PL1w8k37X_6L_s4ncq-swTBvKDWnRSrinI) 
 
