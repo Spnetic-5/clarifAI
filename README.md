@@ -55,8 +55,11 @@ We could also implement an app where one can write an application letter and the
  * [Khushi Barjatia](https://github.com/khushibarjatia)
  * [Sakshi Chikse](https://github.com/Sakshi-0311)
 
+### Mentors:
+* [Shreyansh Chedda](https://github.com/shrey-c)
+
 #### Acknowledgements:
    * [Deep Learning Specialization Andrew NG](https://www.coursera.org/specializations/deep-learning?network=g&utm_source=gg&creativeid=506864295332&matchtype=b&adgroupid=120914521673&gclid=Cj0KCQjw4cOEBhDMARIsAA3XDRjA38BsZVS0VgzvKEwDHtfavwsFIQcoqs5dPq9-wKM518-Va9-L9XMaAnZwEALw_wcB&keyword=&utm_content=94-BrandedSearch-IN&hide_mobile_promo=&utm_campaign=94-BrandedSearch-IN&campaignid=1776545273&devicemodel=&adpostion=&utm_medium=sem&device=c)
    * [Recurrent Neural Networks | Sequence Models | Natural Language Processing](https://www.youtube.com/playlist?list=PL1w8k37X_6L_s4ncq-swTBvKDWnRSrinI) 
-
+   * [COC VJTI](https://www.communityofcoders.in/)
 
