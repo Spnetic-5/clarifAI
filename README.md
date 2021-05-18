@@ -12,7 +12,7 @@ The keyboard unwraps the JSON and puts the predictions over the keys.
 
 Models Considered for word prediction:
 
-**N-grams Model:**
+* **N-grams Model:**
 Probabilistic models are used for computing the probability of an entire sentence or for giving a probabilistic prediction of what the next word will be in a sequence. 
 This model involves looking at the conditional probability of a word given the previous words.If we consider each word occurring in its correct location as an independent event. We might represent this probability as:
 
@@ -20,7 +20,7 @@ This model involves looking at the conditional probability of a word given the p
 <img src="https://user-images.githubusercontent.com/64076774/112020610-7f0def00-8b56-11eb-9dc2-9611fdb84b4a.png">
 </p>
 
-**LSTM Model:**
+* **LSTM Model:**
 Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
 LSTM (Long Short-Term Memory) are very good for analyzing sequences of values and predicting the next one. 
 LSTM model uses Deep learning with a network of artificial “cells” that manage memory, making them better suited for text prediction than traditional neural networks and other models.
@@ -37,10 +37,9 @@ Advantage: Standard RNNs and other language models become less accurate when the
 * Back-end -  [Flask](https://flask.palletsprojects.com/en/1.1.x/), Python
 * Models - [N-grams](https://en.wikipedia.org/wiki/N-gram), [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)
 * Frameworks - Keras, Tensorflow
-* Libraries - NLTK
+* Libraries - nltk, numpy
 
 ## 🛠️ Project Setup
-#### For Web
 ```
 $ git clone https://github.com/Spnetic-5/clarifAI.git
 ```
