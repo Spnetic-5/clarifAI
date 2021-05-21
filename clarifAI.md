@@ -17,8 +17,13 @@ Probabilistic models are used for computing the probability of an entire sentenc
 This model involves looking at the conditional probability of a word given the previous words.If we consider each word occurring in its correct location as an independent event. We might represent this probability as:
 
 <p align="center" >
-<img src="https://user-images.githubusercontent.com/64076774/112020610-7f0def00-8b56-11eb-9dc2-9611fdb84b4a.png">
+<img src="https://user-images.githubusercontent.com/64076774/112020610-7f0def00-8b56-11eb-9dc2-9611fdb84b4a.png"> <br>
+We can use the chain rule of probability to decompose this probability:<br>
+ <img  src="https://user-images.githubusercontent.com/66636289/119120334-ca0a8c80-ba49-11eb-90dc-e3ca26b39853.png"><br>
+Minimum Edit Distance:<br>
+<img align="center" src="https://user-images.githubusercontent.com/66636289/119120091-8152d380-ba49-11eb-9fe9-3bb0e9a87f6c.png"><br>
 </p>
+
 
 * **LSTM Model:**
 Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
