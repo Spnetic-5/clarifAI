@@ -1,4 +1,4 @@
-# clarifAI
+# clarif-AI
 The Real-time assisted writing system provides the ability to suggest predictions for the next word to type. This makes typing faster, more intelligent and reduces effort. It is a Natural Language Processing concerned with predicting the text given the precceding text. It can be used as an web application.
 
 # 📝 Methodology
