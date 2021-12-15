@@ -72,7 +72,7 @@ def output():
       return render_template("index.html",template_folder='templates')
 
 
-@app.route('/predict', methods=['GET'])
+@app.route('/predict', methods=['POST'])
 def worker():
     #print(request, file=sys.stderr)
     string = request.args.get('string')
