@@ -98,9 +98,7 @@ function doWork(str, work) {
 		type:'GET',
 		data:{'string':str,
 			  'work': work},
-		//dataType:'json',
-		
-		//contentType: 'application/json;charset=UTF-8',
+
 		success:function(response){
 			console.log(response);
 			var obj=JSON.parse(response);
